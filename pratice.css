@@ -1,0 +1,86 @@
+ /* UNO Esports header CSS  */
+ /* Work on commenting */
+
+
+
+ 
+
+/*Does it need a inline-block*/
+.introduction-display-image{
+  height: 700px;
+  background-color: aqua;
+  position: relative;
+}
+.display-image {
+  height:700px;
+  width:100%;
+  object-fit:cover;
+  object-position: center 0px;
+  
+}
+.header-photo-text {
+  position: absolute;
+  margin-left: 0px;
+  bottom:20px;
+  left:0px; 
+  right:0px;
+  font-size: 50px;
+  background-color: gray;
+  color: white;  
+}
+.navigation-img {
+  width:80px;
+  margin-left:10px;
+  margin-right:10px;  
+}
+
+.navigation {
+  color: white;
+  background-color: gray;
+
+  font-family: Arial;
+}
+
+.header-description {
+  text-align: center;
+  font-size: 20px;
+}
+.subheader-one {
+  font-family: Arial;
+  font-size: 15px;
+
+  display:inline-block;
+}
+.join-a-team {
+  font-family: Arial;
+  font-size: 15px;
+}
+.requirements-header {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  
+  background-color: red;
+  color: white; 
+
+  padding-left:20%;
+  padding-right: 20%;
+  padding-top:10px;
+  padding-bottom:10px;  
+}
+.qualification-list{
+  width:800px;
+  text-align: left;
+}
+.qualification{
+  width:800px;
+}
+.when-can-you-join {
+  width:800px;
+}
+
+.register-for-a-team {
+  width:800px;
+}
+
+  
+

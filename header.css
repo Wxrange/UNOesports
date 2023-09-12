@@ -1,0 +1,101 @@
+/* header css*/
+
+.header{
+  z-index:100;
+  display: flex;
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  flex-direction:row;
+  height:50px;
+}
+
+.home-page-link{
+  flex:1;
+  background-color: red;
+  height: 50px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+.head-a:hover {
+  color:black;
+}
+.head-a{
+  font-family: Kalam;
+  color:white;
+  transition: color 0.15s;
+  text-decoration: none;
+}
+
+.team-page-link{
+  flex:1;
+  height: 50px;
+  background-color: red;
+  font-size: 30px;
+  text-align:center;
+}
+
+.middle-section {
+  flex:3;
+  background-color: darkred;
+  height:50px;
+}
+
+.title-text { 
+  color: white;
+  text-align: center;
+  background-color: red;
+  font-family: Kalam;
+  font-size: 30px;
+  height: 50px;
+}
+.title-sponsor-text { 
+  color: white;
+  text-align: center;
+  background-color: red;
+  font-family: Kalam;
+  font-size: 30px;
+  height: 50px;
+}
+.right-section {
+  flex: 2;
+  background-color: rgb(77, 77, 77);
+  height:50px;
+}
+
+
+
+/*header bottom*/
+.header-bottom {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+}
+
+.left-header-section-bottom{
+  flex: 1;
+  background-color:darkred;
+  color:white; 
+  height:100px;
+}
+.head-img {
+  width: 200px;
+}
+
+
+.middle-header-section-bottom{
+  flex: 2;
+  text-align: center;
+  background-color: darkred;
+  color:white; 
+  height:100px;
+}
+.right-header-section-bottom{
+  flex: 1;
+  background-color: darkred;
+  color:white; 
+  height:100px;
+}
